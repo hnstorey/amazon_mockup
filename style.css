@@ -17,12 +17,7 @@ a {
 
 h2 {
     font-weight: 100;
-    text-align: left;
     margin-top: 5px;
-}
-
-p {
-    padding-bottom: 0px;
 }
 
 .sign_in_box {
@@ -30,10 +25,8 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 300px;
-    width: 100%;
     padding-left: 20px;
     padding-right: 20px;
-    align-items: center;
     border: 1px solid lightgray;
 }
 
@@ -57,19 +50,10 @@ input {
     font-size: small;
     width: 100%;
     padding-bottom: 20px;
-    padding-top: 0px;
-}
-
-.password {
-    float: left;
 }
 
 .forgot_password {
     float: right;
-}
-
-.password_input {
-    padding-bottom: 20px;
 }
 
 button {
@@ -102,12 +86,9 @@ button {
 .new {
     display: flex;
     flex-direction: row;
-    width: 100%;
     color: gray;
     font-size: small;
-    /* padding-top: 10px; */
     padding-bottom: 10px;
-    text-align: center;
 }
 
 .new_text {
@@ -118,18 +99,12 @@ button {
     content: "";
     flex: 1 1;
     width: 100%;
-    /* vertical-align: middle; */
     border-bottom: 1px solid gray;
-    padding: 0px;
-    margin: auto;
     margin-bottom: 7.5px;
 }
 
 #create {
-    border: 1px solid;
-    width: 100%;
     margin: auto;
-    font-size: x-small;
 }
 
 hr {
